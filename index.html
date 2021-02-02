@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flat-form">
+        <ul class="tabs">
+            <li>
+                <a href="#GPA" class="active">GPA Converter</a>
+            </li>
+            <li>
+                <a href="#PERCENTAGE">Percentage Conerter</a>
+            </li>
+
+        </ul>
+        <div id="GPA" class="form-action show">
+            <h1>GPA Converter</h1>
+
+            <form>
+                <ul>
+                    <li>
+                        <input id="Obtained" type="text" placeholder="Marks Obtained" />
+                    </li>
+                    <li>
+                        <input id="Total" type="text" placeholder="Total Marks" />
+                    </li>
+                    <li>
+                        <input id="1submit" type="submit" value="Get GPA" class="button" />
+                    </li>
+                    <h3 id="1show">Ans will be shown here</h3>
+                </ul>
+            </form>
+        </div>
+        <!--/#GPA.form-action-->
+        <div id="PERCENTAGE" class="form-action show">
+            <h1>% Converter</h1>
+            <form>
+                <ul>
+                    <li>
+                        <input id="value" type="text" placeholder="GPA" />
+                    </li>
+                    <li>
+                        <input type="text" id="2submit" value="Get % " class="button" />
+                    </li>
+                    <h3 id="2show">Ans will be shown here</h3>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
